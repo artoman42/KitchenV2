@@ -14,15 +14,12 @@ class Product{
 }
 
 class Dish{
-    //Products = [];
+    
     constructor(Name, Products, Recipe){
         this.Name = Name;
         this.Products = Products;   
         this.Recipe = Recipe;
     }
-    // toString() {
-    //     return Name;
-    // }
 }
 
 let product1 = new Product("Картопля", "Овоч");
